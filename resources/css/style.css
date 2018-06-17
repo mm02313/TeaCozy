@@ -43,22 +43,40 @@ span {
 
 .mission {
   display: flex;
-  flex-direction: column;
   height: 700px;
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   align-self: center;
-  padding-top: 45px;
   margin: auto;
 }
 
 .bar {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   background-color: black;
   align-items: center;
   justify-content: center;
   margin: auto;
-  height: 150px;
   width: 1200px;
+}
+
+.month {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.flavors img {
+  width: 300px;
+  height:200px;
+  margin:auto;
+  padding: 10px;
+}
+
+.flavors h4 {
+  margin: auto;
 }
