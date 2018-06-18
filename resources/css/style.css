@@ -79,4 +79,28 @@ span {
 
 .flavors h4 {
   margin: auto;
+  padding-bottom: 10px;
+}
+
+.locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  align-self: center;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
 }
