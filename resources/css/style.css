@@ -87,10 +87,17 @@ span {
   height: 500px;
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  align-self: center;
   flex-direction: row;
+  justify-content: center;
   margin: auto;
   padding-top: 15px;
+}
+
+h2 #locations {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .address {
@@ -103,4 +110,16 @@ span {
   background-color: black;
   text-align: center;
   margin: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
